@@ -1,0 +1,165 @@
+@import url("content.css");
+@import url("blocks.css");
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+
+
+body {
+	font-family: Segoe UI,Tahoma,Trebuchet MS,Arial,Helvetica,sans-serif;
+	font-size: 12px;   
+	line-height: normal;
+	width: 1000px;
+	margin: 0 auto;
+	background: url("../img/background.gif")  ;
+	margin-top:1px;
+	
+}
+
+
+#xo-page {
+	padding-top: 1px;   background: #fff;  
+	
+}
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+  color:#333333;
+  
+}
+
+
+/* --------- Header --------- */
+
+
+
+#slideshow {
+    position:absolute;
+    height:180px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+
+/* --- Logo --- */
+#logo{
+	background: 		url("../img/top.png") ;
+	padding-left:10px;
+	padding-top:4px;	
+} 
+
+#topmenu{
+	float:right;
+	padding-right:100px;
+	padding-top:0px;
+} 
+
+
+
+
+
+/* block main menu */
+#mainmenu {	font-size: 1em;}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 4px 4px 4px 16px;
+  font-weight:		bold;
+  color:#234304;
+  
+}
+#mainmenu a:hover {background-color: #f8f8f8; color:#8B2323;}
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {
+  padding-left: 25px;
+  background: none;
+  border: none;
+  color:#336601;
+  font-size: 1em;
+}
+#mainmenu a.menuSub:hover { background-color: #f8f8f8;}
+
+/* block user menu */
+#usermenu {	font-size: .9em; }
+#usermenu a {
+  display: block;
+  margin: 0;
+  padding: 4px 4px 4px 16px;
+  color:#00008B;
+  font-weight:		bold;
+  
+}
+
+
+
+
+/* --------- Footer --------- */
+#xo-footer {  
+	background: url("../img/footer.png") ;
+	width: 1000px;
+	height:48px;
+	margin:0 auto;
+	margin-bottom:1px;	
+}
+
+
+.xo-foottext{
+	color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;	
+	padding-top:15px;
+	font-weight:			bold;
+	font-size: 1em;
+}
+
+#menu {width:1000px padding:0; margin:0; list-style:none; height:36px; position:relative; z-index:500; font-family:arial, verdana, sans-serif;background: #104E8B;}
+#menu li {float:left; margin-right:1px;}
+#menu li a {display:block; float:left; height:36px; line-height:36px; background:#EE2C2C; color:#ccc; text-decoration:none; font-size:13px; font-weight:bold; padding:0 30px 0 20px;}
+#menu table {border-collapse:collapse; width:0; height:0; position:absolute; top:0; left:0;}
+#menu li a:hover {z-index:200; position:relative;color:#fff; background-color:#336601;}
+#menu li:hover {position:relative; z-index:200;}
+
+
+
+
+/*======= Tinymce background textarea ========*/
+body.mceContentBody {
+    margin:                 0;
+    padding:                0;
+    background-color:       #fff;
+    background-image:       none;
+    color:                  #000;
+}
+
+
+
+
+
+
+
+
+
+

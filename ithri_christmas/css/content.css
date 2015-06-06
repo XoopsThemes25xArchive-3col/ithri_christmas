@@ -1,0 +1,373 @@
+/* --------- Hypertext links --------- */
+a{
+	color: #14655C;
+	text-decoration: none;
+}
+a:hover{
+	color: #FF3300;
+	text-decoration: none;
+}
+a img{
+	border: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+/* --------- Images --------- */
+img {
+	position: relative;
+	border: 0;  
+}
+
+
+
+
+hr {
+  color: #ccc;
+  border: #ccc;
+  background: #ccc;
+  height: 1px;
+}
+
+
+
+
+
+/* --------- Tables and cells --------- */
+table {
+	width: 100%;
+	text-align:left;
+}
+table td {
+	padding: 0;
+	vertical-align: top;
+	border-width: 0;  
+}
+th {
+	padding: 4px;
+	vertical-align: middle;
+	background-color: #1874CD;
+	color:#FFFFFF;
+}
+
+
+.outer {
+	padding: 2px;
+	
+}
+.head {
+ 	padding-left:8px;
+	background: #F0F8FF;
+    font-weight: bold;
+    padding: 5px;
+    color:#333333;
+    border: 1px solid #CECECE;
+	text-align:left;
+}
+
+.even {
+    background: #FAFAFA;
+	padding: 5px;
+}
+.odd {
+    background: #FCFCFC;
+	padding: 5px;
+}
+.foot {
+	background-color: #f4f4f4;
+	padding: 5px;
+	font-weight: bold;
+	
+}
+tr.even td {
+	 background-color: #f6f5f5;
+	padding: 5px;
+	border-bottom: 1px dotted #D6DEE4;
+}
+tr.odd td {
+	background-color: #eceff2;
+	padding: 5px;
+	border-bottom: 1px dotted #D6DEE4;}
+
+
+/* --------- Core messages --------- */
+.errorMsg {
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;  
+}
+.confirmMsg {
+	background-color: #DDFFDF;
+	padding: 10px;
+	color: #136C99;  
+	text-align: center;
+	font-weight: bold; 
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;   
+}
+.resultMsg {
+	background-color: #c1c1c1;
+	padding: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;  
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;  
+}
+
+/* --------- Codes and Quotes --------- */
+.xoopsCode {
+	max-height: 200px;
+	margin: 6px;
+	background-color: #fafafa;
+	padding: 6px; 
+	overflow: auto;
+	color: #666;
+	font-family:  "Lucida Console", "courier new", monospace;
+	font-size: .9em; 
+	border: 1px solid #639ACC;
+	border-left:1px solid #639ACC; 
+}
+.xoopsQuote {
+	margin: 6px;
+	background: #fafafa url("../img/quote.gif") no-repeat 5px 10px;  
+	padding: 6px 6px 6px 40px;  
+	font-style: normal;
+	border: 1px solid #639ACC;
+	border-left: 2px solid #639ACC; 
+}
+
+/* --------- Articles --------- */
+.item {
+	margin-top: 20px;
+	background: #FCFCFC;
+    font-size:1.2em;
+	border-bottom: 2px solid #D6DEE4;
+}
+.itemHead {
+	height: 20px;
+	padding-top:2px;
+   	
+	
+	
+}
+.itemInfo { 
+	background-color: #F7F7F7;
+	padding: 3px;
+	text-align:left; 
+}
+.itemTitle {
+	background:				url("../img/star.png") no-repeat;  padding-left:20px;
+}
+.itemTitle a {
+	padding: 4px;
+	color: #00008B;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	font-weight: bold;	
+
+}
+.itemPoster {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemPostDate {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemStats {
+	font-size: .9em;
+	font-style: normal; color:#CD3333;
+}
+.itemBody {
+padding-left: 3px;
+}
+.itemText {
+	color:#333;
+	line-height:1.5em;
+	padding:10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background:#fff;
+	
+}
+.itemFoot {  
+	margin: 2px 0px 0px 10px; 
+	color: #597eb2 !important; 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+    font-weight: bold; 	
+}
+.itemAdminLink {
+    font-size: .9em;  color:#CD3333;
+   
+	
+}
+.itemPermaLink {
+    font-size: .9em; 
+	margin: 							0 20px 10px 0; 
+	padding: 						0 20px; 
+	padding-bottom:4px;	
+	color:     #CD3333;
+}
+
+
+
+/* --------- Forums and Comments --------- */
+.comTitle {
+	margin-bottom: 2px;
+	font-weight: bold;  
+}
+.comText {padding: 2px;}
+.comUserStat {
+	margin: 2px; 
+	background-color: #fff;
+	padding: 2px; 
+	font-size: .8em;
+	font-weight: ;
+	border: 1px solid #ccc;   
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+	font-size: .9em;
+	font-weight: bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+}  
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	font-size: .8em;
+}
+.signature {
+	font-size: .8em;
+	font-style: normal;
+}
+
+
+
+ /* --------- Forms --------- */
+button, input[type="submit"], input[type="button"] { 
+background: 				url("../img/title.png") repeat-x bottom;
+ padding : 4px;  color : #fff;  font-size : .8em;  font-weight : bold; border:none;   
+ } 
+ 
+
+
+
+input[type=text], input[type=password], input[type=checkbox], input[type=file], textarea {
+        margin: 2px 5px 2px 0;
+        padding-left: .2em;
+        color: inherit;
+        color: #333;
+}
+
+
+
+
+
+/*-----------------Styles for pagenav ------------*/
+#xo-pagenav {
+    margin:                 7px 0;
+    text-align:             center;
+    font-size:              1.05em;
+}
+#xo-pagenav a {
+    text-decoration:        none;
+}
+#xo-pagenav a:hover {
+    color:                  #1251c6;
+     background:			#eceff2 ;
+    border:                 1px solid #fff;
+}
+.xo-pagact {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #1251c6;
+    background:				#eceff2 ;
+    border:                 1px solid #fff;
+}
+.xo-counterpage, .xo-pagarrow {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #000;
+    background-color:       #fff;
+    border:                 1px solid #DDDDFF;
+}
+.xo-counterpage:hover {}
+.xo-pagarrow {
+    letter-spacing:         0.2em;
+}
+
+/* lists */
+#xo-canvas-content ul {
+  margin: 2px;
+  padding: 2px;
+  list-style: decimal inside;
+  text-align: left;
+}
+#xo-canvas-content li {
+  margin-left: 2px;
+  background-color: inherit;
+  line-height: 1.4em;
+  list-style:	square inside;
+}
+ 
+ 
+/* --- system_redirect ---*/
+#xo-redirect {	margin: 10px 80px 10px 80px;	
+background-color: #fafafa;	padding: 8px;	
+line-height: 1.4em;	text-align: center;	
+border: 1px solid #ddd;
+}
+
+/* --- system_siteclosed --- */
+#xo-siteclosed {
+	margin: 10px 200px 10px 200px;	
+	background-color: #fafafa;	
+	padding: 8px;	
+	line-height: 1.6em;	
+	text-align: center;	
+	border: 1px solid #ddd;}
+#xo-siteclosed strong {	
+	display: block;	
+	font-style: normal;}
+#xo-siteclosed label {	
+	font-size: .9em;	
+	font-weight: normal;}
+	#xo-siteclosed input {margin: 2px;
+	}
+
+
+
+
+
+

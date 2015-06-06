@@ -1,0 +1,98 @@
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn{ 
+	padding: 2px;
+	width : 170px;
+	padding-top:4px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background:#F8F8FF;
+}
+
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+    color: #00008B;
+   	background: 		url("../img/menu.jpg") ;
+    font-size: 1.3em;
+    text-align: center;
+	font-weight: bold; 
+    height:30px;	    
+}
+
+#xo-canvas-rightcolumn.xo-blockcontent { 
+	padding-bottom: 10px;
+	padding-left:2px;
+	padding-top: 10px;
+	
+}
+
+
+
+/* --------- leftcolumns --------- */
+#xo-canvas-leftcolumn {
+	padding: 2px;
+	width : 170px;
+	padding-top:4px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background:#F8F8FF;
+	
+	
+}
+#xo-canvas-leftcolumn h3.xo-blocktitle {
+    background: 		url("../img/menu.jpg") ;
+	color:#8B2323; 
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	height:30px;
+	
+	
+}
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	color:#104E8B;
+	padding-bottom: 10px;
+	padding-left:2px;
+	padding-top: 10px;
+	
+	
+}
+
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 5px;
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 2px;  
+   color :#EE2C2C;
+  font-weight: bold;
+  background: 	#66CD00	;
+  font-size: 1.2em;
+  padding: 3px;
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  }
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 2px;  
+  color: #1874CD;
+  font-weight: bold;
+  background: 	#66CD00	;
+  font-size: 1.2em;
+  padding: 3px;
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+
+
+
